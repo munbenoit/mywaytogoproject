@@ -1,0 +1,38 @@
+{
+  "name": "mywaytogo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node server.ts",
+    "build": "next build",
+    "start": "next start",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/munbenoit/mywaytogoproject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/munbenoit/mywaytogoproject/issues"
+  },
+  "homepage": "https://github.com/munbenoit/mywaytogoproject#readme",
+  "dependencies": {
+    "@types/express": "^4.17.3",
+    "@types/react-dom": "^16.9.5",
+    "express": "^4.17.1",
+    "next": "^9.3.0",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "ts-node": "^8.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^13.9.0",
+    "@types/react": "^16.9.23",
+    "typescript": "^3.8.3"
+  }
+}
